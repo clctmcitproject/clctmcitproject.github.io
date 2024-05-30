@@ -163,11 +163,11 @@
             // Function to call the Custom Vision Prediction API and process the response
             function callCustomVisionAPI(imageData) {
                 // Replace 'YOUR_PREDICTION_API_KEY' with your actual Prediction API key
-                const predictionApiKey = '7680f27d-648b-420a-b6f4-9735ebff5ca7';
+                const predictionApiKey = 'f38492c765014c2bb03a589ae8bcded4';
                 // Replace 'YOUR_PREDICTION_API_ENDPOINT' with your actual Prediction API endpoint
                 const predictionApiEndpoint = 'https://southcentralus.api.cognitive.microsoft.com';
                 // Replace 'YOUR_PROJECT_ID' with your actual Custom Vision project ID
-                const projectId = '6f0779af-f780-4863-b25e-f1d52efc6892';
+                const projectId = '7680f27d-648b-420a-b6f4-9735ebff5ca7';
 
                 $.ajax({
                     url: `${predictionApiEndpoint}/customvision/v3.0/Prediction/${projectId}/classify/iterations/Iteration1/image`,
